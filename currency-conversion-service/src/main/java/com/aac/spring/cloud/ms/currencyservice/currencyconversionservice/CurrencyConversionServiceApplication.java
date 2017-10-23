@@ -6,7 +6,7 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.cloud.netflix.feign.EnableFeignClients;
 
 @SpringBootApplication
-@EnableFeignClients
+@EnableFeignClients("com.aac.spring.cloud.ms.currencyservice.currencyconversionservice")
 @EnableDiscoveryClient
 public class CurrencyConversionServiceApplication {
 
